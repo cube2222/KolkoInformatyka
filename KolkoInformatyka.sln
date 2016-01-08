@@ -17,6 +17,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MaxSubarray", "MaxSubarray\
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MaxSubarrayWithOneOut", "MaxSubarrayWithOneOut\MaxSubarrayWithOneOut.vcxproj", "{4756D2AC-E145-4062-9587-99B2CC4FA69E}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Sjito", "Sjito\Sjito.vcxproj", "{005D06E6-C732-4293-8F33-152D34F4E753}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -81,6 +83,14 @@ Global
 		{4756D2AC-E145-4062-9587-99B2CC4FA69E}.Release|x64.Build.0 = Release|x64
 		{4756D2AC-E145-4062-9587-99B2CC4FA69E}.Release|x86.ActiveCfg = Release|Win32
 		{4756D2AC-E145-4062-9587-99B2CC4FA69E}.Release|x86.Build.0 = Release|Win32
+		{005D06E6-C732-4293-8F33-152D34F4E753}.Debug|x64.ActiveCfg = Debug|x64
+		{005D06E6-C732-4293-8F33-152D34F4E753}.Debug|x64.Build.0 = Debug|x64
+		{005D06E6-C732-4293-8F33-152D34F4E753}.Debug|x86.ActiveCfg = Debug|Win32
+		{005D06E6-C732-4293-8F33-152D34F4E753}.Debug|x86.Build.0 = Debug|Win32
+		{005D06E6-C732-4293-8F33-152D34F4E753}.Release|x64.ActiveCfg = Release|x64
+		{005D06E6-C732-4293-8F33-152D34F4E753}.Release|x64.Build.0 = Release|x64
+		{005D06E6-C732-4293-8F33-152D34F4E753}.Release|x86.ActiveCfg = Release|Win32
+		{005D06E6-C732-4293-8F33-152D34F4E753}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
