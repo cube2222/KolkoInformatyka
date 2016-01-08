@@ -12,20 +12,20 @@ int main() {
 		int temp;
 		cin >> temp;
 		tab.push_back(temp);
-		values.push_back(0);
+		values.push_back(-1000000);
 	}
 	int p, q, x, val, curP, curQ, curX, curVal;
-	curP = -1;
-	curQ = -1;
-	curX = -1;
-	p = -1;
-	q = -1;
-	x = -1;
-	val = 0;
+	curP = -1000000;
+	curQ = -1000000;
+	curX = -1000000;
+	p = -1000000;
+	q = -1000000;
+	x = -1000000;
+	val = -1000000;
 	curVal = 0;
 	for (int i = 1; i < len - 1; i++) {
-		if (curP == -1) {
-			if (tab[i] > 0) {
+		if (curP == -1000000) {
+			if (tab[i] > -1000000) {
 				curP = i - 1;
 				curX = i;
 			}
