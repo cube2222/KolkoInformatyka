@@ -12,17 +12,25 @@ int main() {
 		cin >> temp;
 		tab.push_back(temp);
 	}
+	int searchNum;
+	cin >> searchNum;
 	int Begin = 0, End = 1, Sum = tab[0];
 	while (End <= tab.size()) {
-		if (Sum < 12) {
-			End += 1;
-			Sum += tab[End - 1];
+		if (Sum < searchNum) {
+			if (End < tab.size()) {
+				End += 1;
+				Sum += tab[End - 1];
+			}
+			else {
+				cout << "Impossible" << endl;
+				return 0;
+			}
 		}
-		else if (Sum > 12) {
+		else if (Sum > searchNum) {
 			Begin += 1;
 			Sum -= tab[Begin - 1];
 		}
-		if (Sum == 12) {
+		if (Sum == searchNum) {
 			cout << "Possible" << endl;
 			return 0;
 		}
